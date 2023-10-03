@@ -1,0 +1,68 @@
+/* style.css */
+body {
+    background-color: #f8f8f8;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    min-height: 100vh; 
+}
+
+header {
+    background-color: #4c4c4c;
+    color: #ffffff;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    position: absolute; 
+    top: 0;
+}
+
+header h1 {
+    font-family: 'Bacasime Antique', cursive;
+    margin: 10px 0;
+}
+
+header h2 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 5px 0;
+}
+
+main {
+    margin: 20px;
+    margin-top: 120px; /* Adjusted margin-top */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.lyrics {
+    line-height: 1.6;
+    margin: 0;
+    font-family: 'Calligraffitti', cursive;
+    color: #333;
+    font-size: 1.4em;
+}
+
+
+.line1, .line7, .line13, .line19, .line25, .line31, .line37, .line43 {
+    font-family: 'Bacasime Antique', cursive;
+    font-size: 1.7em;
+    color: #0066cc;
+}
+
+.line3, .line9, .line15, .line21, .line27, .line33, .line39, .line45 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    color: #fd8300;
+}
+
+.word1 { /* the single uh*/
+    font-size: 2em;
+    color: #009966;
+}
+/* Miss you paul*/
