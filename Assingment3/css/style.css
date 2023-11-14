@@ -1,0 +1,143 @@
+body {
+    
+font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    /* Gradient from dark chocolate to cream */
+    background: linear-gradient(100deg, #453227, #a67c52, #d5a876);
+    color: #f6c89b;
+}
+
+
+header {
+    background-color: #5d2d06;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+    font-size: 3rem;
+    color: #d4af37;
+    text-transform: uppercase;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: rgb(245, 224, 220);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 0;
+    color: #f5f0f1;
+}
+
+section p {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+section li {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+section img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+footer {
+    background-color: #e6e6fa;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    
+    align-items: center;
+}
+
+footer img {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+footer div {
+    margin-bottom: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333333;
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+}
+
+footer input {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+footer input[type="submit"] {
+    background-color: #d5a876;
+    color: #fff;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+footer input[type="submit"]:hover {
+    background-color: #8f19ff;
+}
